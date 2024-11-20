@@ -58,6 +58,10 @@ public class Persona {
 	 */
 	public Persona() {}
 	
+	public Persona(String nombre) {
+		this.nombre = nombre;
+	}
+	
 	/***
 	 * Constructor con nombre y apellidos
 	 * @param nombre de la persona
