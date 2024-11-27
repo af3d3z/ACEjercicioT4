@@ -182,6 +182,7 @@ public class DatabaseDAL {
 		return personas;
 	}
 	
+	
 	public DatabaseDAL() {
 		connect();
 	}
